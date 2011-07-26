@@ -1,0 +1,10 @@
+set nocompatible
+set enc=utf-8
+"set gfn=Consolas:h10
+"set gfn=ProggyCleanSZCP:h9:cANSI
+
+set guioptions-=T
+set dir=~/tmp
+set backupdir=~/tmp
+
+:colorscheme mcdark
