@@ -1,0 +1,5 @@
+source ~/.git-completion.sh
+export GIT_PS1_SHOWDIRTYSTATE=auto
+export GIT_PS1_SHOWUNTRACKEDFILES=auto
+export GIT_PS1_SHOWUPSTREAM=verbose
+export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
